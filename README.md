@@ -28,7 +28,7 @@ you a message telling you what it caught.
 You'll need Node.js 18+ on your PATH.
 
 ```bash
-npx promptguard install
+npx @khushwant.r/promptguard install
 ```
 
 That wires up the hook for both Cursor and Claude Code. Restart Cursor (or reload
@@ -37,17 +37,17 @@ Claude Code) so it picks up the new hook.
 Want just one tool, or a stricter setup?
 
 ```bash
-npx promptguard install --cursor          # Cursor only
-npx promptguard install --claude          # Claude Code only
-npx promptguard install --project         # this repo only (.cursor / .claude)
-npx promptguard install --strict          # fail closed: if the hook breaks, block
-npx promptguard install --aggressive      # also flag values assigned to secret-ish names
+npx @khushwant.r/promptguard install --cursor          # Cursor only
+npx @khushwant.r/promptguard install --claude          # Claude Code only
+npx @khushwant.r/promptguard install --project         # this repo only (.cursor / .claude)
+npx @khushwant.r/promptguard install --strict          # fail closed: if the hook breaks, block
+npx @khushwant.r/promptguard install --aggressive      # also flag values assigned to secret-ish names
 ```
 
 Remove it just as easily:
 
 ```bash
-npx promptguard uninstall
+npx @khushwant.r/promptguard uninstall
 ```
 
 ## Try it

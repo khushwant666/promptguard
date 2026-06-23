@@ -10,7 +10,7 @@
 
 const path = require("path");
 const { spawnSync } = require("child_process");
-const { detectSecrets } = require("../out/core/detect.js");
+const { detectSecrets } = require("@khushwant.r/secret-detect");
 
 const CLI = path.join(__dirname, "..", "out", "cli.js");
 
@@ -85,7 +85,7 @@ check(
 check(
   "masked value never contains the full secret",
   detectSecrets("AKIAIOSFODNN7EXAMPLE").every(
-    (f) => !require("../out/core/detect.js").maskSecret(f.value).includes(f.value)
+    (f) => !require("@khushwant.r/secret-detect").maskSecret(f.value).includes(f.value)
   )
 );
 
