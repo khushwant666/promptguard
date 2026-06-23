@@ -1,0 +1,52 @@
+{
+  "name": "promptguard",
+  "version": "0.1.0",
+  "description": "Secret firewall for AI prompts. Scans prompts for API keys and secrets and blocks them before they're sent to Cursor or Claude Code, via a local prompt hook.",
+  "author": {
+    "name": "Khushwant R."
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khushwant666/promptguard.git"
+  },
+  "homepage": "https://khushwant.dev",
+  "bugs": {
+    "url": "https://github.com/khushwant666/promptguard/issues"
+  },
+  "keywords": [
+    "ai",
+    "secrets",
+    "security",
+    "api keys",
+    "credentials",
+    "cursor",
+    "claude",
+    "claude-code",
+    "hook",
+    "prompt",
+    "dlp",
+    "firewall"
+  ],
+  "bin": {
+    "promptguard": "./out/cli.js"
+  },
+  "files": [
+    "out",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node test/run-tests.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

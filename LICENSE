@@ -1,0 +1,28 @@
+Copyright (c) 2026 Khushwant R. All Rights Reserved.
+
+This source code is made publicly viewable for transparency and evaluation
+purposes only. It is NOT open source.
+
+You MAY:
+  - View and read the source code in this repository.
+  - Install and use the official "promptguard" package published by the
+    copyright holder from the npm registry.
+
+You MAY NOT, without prior written permission from the copyright holder:
+  - Copy, reproduce, or redistribute the source code or any substantial portion
+    of it.
+  - Modify, adapt, or create derivative works based on this software.
+  - Publish, sublicense, sell, or otherwise distribute this software or any
+    derivative of it, including to the npm registry or any other package
+    registry, under any name or publisher.
+  - Use the source code in other projects, products, or services.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+For licensing inquiries, contact the copyright holder.
