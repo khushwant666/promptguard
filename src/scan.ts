@@ -12,7 +12,7 @@
  *     fallback when emitting a block decision.
  */
 
-import { detectSecrets, Finding, maskSecret } from "./core/detect";
+import { detectSecrets, Finding, maskSecret } from "@khushwant.r/secret-detect";
 
 type Target = "cursor" | "claude" | "generic";
 

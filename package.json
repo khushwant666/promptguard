@@ -1,5 +1,5 @@
 {
-  "name": "promptguard",
+  "name": "@khushwant.r/promptguard",
   "version": "0.1.0",
   "description": "Secret firewall for AI prompts. Scans prompts for API keys and secrets and blocks them before they're sent to Cursor or Claude Code, via a local prompt hook.",
   "author": {
@@ -44,6 +44,9 @@
     "watch": "tsc -watch -p ./",
     "prepublishOnly": "npm run build",
     "test": "npm run build && node test/run-tests.js"
+  },
+  "dependencies": {
+    "@khushwant.r/secret-detect": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
